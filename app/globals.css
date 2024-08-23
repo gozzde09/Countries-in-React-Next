@@ -1,0 +1,37 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "@fontsource/poppins";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: rgb(241, 239, 229);
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+h3,
+h4 {
+  font-weight: bolder;
+}
+h1 {
+  margin: auto;
+  font-family: Brush Script MT;
+  color:#28a745;
+}
+h2{
+  color:#204764;
+}
+Button, input,textarea{  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
