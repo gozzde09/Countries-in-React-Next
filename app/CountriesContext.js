@@ -6,7 +6,7 @@ export const CountriesProvider = ({ children }) => {
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
-    fetch("https://restcountries.com/v3.1/all")
+    fetch("https://restcountries.com/v3.1/region/europe")
       .then((response) => response.json())
       .then((data) => {
         // Tar bort länder som inte har ett huvudstad
