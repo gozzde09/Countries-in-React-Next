@@ -2,7 +2,7 @@ React Next project with Rest Countries API 🌍
 
 A web application built with React, Next and JavaScript that allows users to explore European countries using a REST API.
 
-DEMO : https://countries-in-react-next-je49.onrender.com
+
 
 Features
 
